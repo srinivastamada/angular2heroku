@@ -1,34 +1,25 @@
-## Angular2 Express slim starter
-### Heroku ready wih SystemJS builder
+# Angular 2 Heroku Boilerplate
+This README outlines how to quickly deploy a project to Heroku using same files used in [angular.io](https://angular.io) tutorials.
 
-- Angular 2 ( https://angular.io/docs/ts/latest/quickstart.html )
-- Express ( from generator )
+## Prerequisites
+* [Git](http://git-scm.com/)
+* [Node.js](http://nodejs.org/) (with NPM)
 
-https://express-angular2-slim.herokuapp.com/
+## Installation
+* `git clone https://github.com/AryanJ-NYC/angular-2-heroku-boilerplate.git <your-project-name>`
+* `cd <your-project-name>`
+* `npm install`
+* `npm run typings install`
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+## Running / Development
+### Running locally
+* `npm start`
+* Visit your app at [http://localhost:8080](http://localhost:8080)
 
-## Install
-```bash
-git clone https://github.com/vladotesanovic/angular2-express-slim
-cd angular2-express-slim
+### Deploying to Heroku
+* `heroku create <your-project-name>`
+* `git push heroku master`
+* `heroku open`
 
-# Install dependencies
-npm install
-
-# run and watch for changes in .ts files
-npm start
-
-# Applciation url: http://localhost:3000
-```
-
-## Run in production mod
-```bash
-npm run build:prod
-
-npm run prod
-```
-
-## If you are looking for Webpack version
-
-https://github.com/vladotesanovic/angular2-express-starter
+## Contribute
+Like this boilerplate? Contribute at [http://paypal.me/AryanJ/5](http://paypal.me/AryanJ/5).
