@@ -1,25 +1,31 @@
-# Angular 2 Heroku Boilerplate
-This README outlines how to quickly deploy a project to Heroku using same files used in [angular.io](https://angular.io) tutorials.
+# MyAngular
 
-## Prerequisites
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
-## Installation
-* `git clone https://github.com/AryanJ-NYC/angular-2-heroku-boilerplate.git <your-project-name>`
-* `cd <your-project-name>`
-* `npm install`
-* `npm run typings install`
+## Development server
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Running / Development
-### Running locally
-* `npm start`
-* Visit your app at [http://localhost:8080](http://localhost:8080)
+## Code scaffolding
 
-### Deploying to Heroku
-* `heroku create <your-project-name>`
-* `git push heroku master`
-* `heroku open`
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
 
-## Contribute
-Like this boilerplate? Contribute at [http://paypal.me/AryanJ/5](http://paypal.me/AryanJ/5).
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Before running the tests make sure you are serving the app via `ng serve`.
+
+## Deploying to GitHub Pages
+
+Run `ng github-pages:deploy` to deploy to GitHub Pages.
+
+## Further help
+
+To get more help on the `angular-cli` use `ng help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
